@@ -2,7 +2,7 @@
 
 MCP server that converts Mermaid diagrams to styled Excalidraw files.
 
-> Generated with [Claude Code](https://claude.ai/code)
+> Generated with [Claude Code](https://claude.ai/code). AI slop included, but it helps me every day :)
 
 ## The Problem
 
