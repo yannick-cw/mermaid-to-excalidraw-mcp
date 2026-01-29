@@ -61,8 +61,6 @@ The output file opens directly in **Obsidian** (with [Excalidraw plugin](https:/
 
 ```
 %%{excali: styles: {FE: ui, API: api, DB: db, Cache: cache}}%%
-```
-```mermaid
 flowchart TD
     FE[React App] --> API[Node Service]
     API --> DB[(PostgreSQL)]
