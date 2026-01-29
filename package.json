@@ -1,0 +1,41 @@
+{
+  "name": "mermaid-to-excalidraw-mcp",
+  "version": "0.1.0",
+  "description": "MCP server to convert Mermaid diagrams to styled Excalidraw for Obsidian",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mermaid-to-excalidraw-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mermaid",
+    "excalidraw",
+    "obsidian",
+    "diagram"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yannick-cw/mermaid-to-excalidraw-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yannick-cw/mermaid-to-excalidraw-mcp/issues"
+  },
+  "homepage": "https://github.com/yannick-cw/mermaid-to-excalidraw-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
